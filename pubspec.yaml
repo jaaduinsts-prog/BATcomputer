@@ -138,3 +138,5 @@ flutter:
   # see https://flutter.dev/to/font-from-package
 dependency_overrides:
   path: ^1.9.1
+  meta: ^1.16.0
+  
