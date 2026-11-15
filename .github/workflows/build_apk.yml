@@ -21,8 +21,8 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.27.x'
           channel: 'stable'
+          # Automatically uses the latest stable Flutter SDK supporting Dart 3.12+
 
       - name: Install Dependencies
         run: flutter pub get
